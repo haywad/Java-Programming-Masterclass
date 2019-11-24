@@ -3,8 +3,9 @@ package CodingExercises;
 public class ExTwo_Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		
+		double kiloBytes = 904;
+		ExTwo_MegaBytesConverter.printMegaBytesAndKiloBytes((int) kiloBytes);
 	}
 
 }
