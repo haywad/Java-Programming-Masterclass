@@ -3,7 +3,6 @@ package FloadDouble;
 public class main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
 		float myMinFloatValue = Float.MIN_VALUE;
 		float myMaxFloatValue = Float.MAX_VALUE;
