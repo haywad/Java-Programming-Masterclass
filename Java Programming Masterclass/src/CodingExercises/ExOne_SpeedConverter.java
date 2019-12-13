@@ -1,6 +1,15 @@
 package CodingExercises;
 
 public class ExOne_SpeedConverter {
+	
+	public static void main(String[] args) {
+		
+		double kilometersPerHour = 10.5;
+		long miles = toMilesPerHour(kilometersPerHour);
+		System.out.println("Miles = " + miles);
+		
+		printConversion(kilometersPerHour);
+	}
 
 	public static long toMilesPerHour(double kilometersPerHour) {
 		

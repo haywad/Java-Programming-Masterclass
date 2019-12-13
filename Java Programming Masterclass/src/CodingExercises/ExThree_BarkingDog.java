@@ -1,6 +1,13 @@
 package CodingExercises;
 
 public class ExThree_BarkingDog {
+	
+	public static void main(String[] args) {
+		int hourOfDay = 1;
+		boolean barking = true;
+		shouldWakeUp(barking, hourOfDay);
+
+	}
 
 	public static void shouldWakeUp(boolean barking, int hourOfDay) {
 		if ((hourOfDay > 1 && hourOfDay < 8) || (hourOfDay > 22 && hourOfDay < 23) && (barking == true)) {
